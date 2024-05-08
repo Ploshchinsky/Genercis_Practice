@@ -35,7 +35,7 @@ public class BookStorage
         } else if (tempBook.getYear() != updatedElement.getYear()) {
             bookList.get(id).setYear(updatedElement.getYear());
         }
-        System.out.println("Book [" + bookList.get(id).getName() + "] has benn update!");
+        System.out.println("Book [" + bookList.get(id).getName() + "] has been update!");
     }
 
     @Override
