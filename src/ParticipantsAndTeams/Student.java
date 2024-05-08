@@ -1,8 +1,8 @@
 package ParticipantsAndTeams;
 
-public class Students
+public class Student
         extends Participant {
-    public Students(String name, String age) {
+    public Student(String name, String age) {
         super(name, age);
     }
 }
