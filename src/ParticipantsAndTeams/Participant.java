@@ -2,9 +2,9 @@ package ParticipantsAndTeams;
 
 public abstract class Participant {
     private String name;
-    private String age;
+    private int age;
 
-    public Participant(String name, String age) {
+    public Participant(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -13,7 +13,7 @@ public abstract class Participant {
         return name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 }
