@@ -32,4 +32,10 @@ public class Pair<K, V> {
                 ", value=" + value +
                 '}';
     }
+
+    public static Number getSumFromPair(Pair<? extends Number, ? extends Number> pair) {
+        Number keyNumber = pair.getKey();
+        Number valueNumber = pair.getValue();
+        return keyNumber.doubleValue() + valueNumber.doubleValue();
+    }
 }
